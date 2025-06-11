@@ -1,8 +1,11 @@
-﻿using Movies.Application.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Movies.Application.Database;
+using Movies.Application.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Movies.Application.Repositories
@@ -10,43 +13,65 @@ namespace Movies.Application.Repositories
     public class MovieRepository : IMovieRepository
     {
 
-        private readonly List<Movie> _movies = new();
-
-        public Task<bool> CreateAsync(Movie movie)
+        //private readonly List<Movie> _movies = new();
+        private readonly AppDbContext _dbContext;
+        public MovieRepository(AppDbContext dbContext)
         {
-            _movies.Add(movie);
-            return Task.FromResult(true);
-        }
-        public Task<IEnumerable<Movie>> GetAllAsync()
-        {
-            return Task.FromResult(_movies.AsEnumerable());
+            _dbContext = dbContext;
         }
 
-        public Task<Movie?> GetByIdAsync(Guid id)
+        public async Task<bool> CreateAsync(Movie movie, CancellationToken token = default)
         {
-            var movie = _movies.SingleOrDefault(x => x.Id == id);
-            return Task.FromResult(movie);
+            movie.Slug = GenerateSlug(movie.Title, movie.YearOfRelease);
+            await _dbContext.Movies.AddAsync(movie,token);
+            var created  = await _dbContext.SaveChangesAsync(token);
+            return created > 0;
+        }
+        public async Task<IEnumerable<Movie>> GetAllAsync(CancellationToken token = default)
+        {
+            return await _dbContext.Movies.ToListAsync(token);
         }
 
-        public Task<Movie> GetBySlug(string slug)
+        public async Task<Movie?> GetByIdAsync(Guid id, CancellationToken token = default)
         {
-            var movie = _movies.SingleOrDefault(x=> x.Slug == slug);
-            return Task.FromResult(movie);
+            return await _dbContext.Movies.FindAsync(id, token);
         }
-        public Task<bool> UpdateAsync(Movie movie)
+
+        public Task<Movie> GetBySlug(string slug,CancellationToken token)
         {
-            var movieIndex = _movies.FindIndex(x=> x.Id == movie.Id);
-            if (movieIndex == -1) { 
-                return Task.FromResult(false);
+           return _dbContext.Movies.FirstOrDefaultAsync(x => x.Slug == slug,token);
+        }
+        public async Task<bool> UpdateAsync(Movie movie, CancellationToken token = default)
+        {
+            var exisitngMovie = await _dbContext.Movies.FindAsync(movie.Id, token);
+            if (exisitngMovie is null)
+            {
+                return false;
             }
-            return Task.FromResult(true);
+            exisitngMovie.Title = movie.Title;
+            exisitngMovie.YearOfRelease = movie.YearOfRelease;
+            exisitngMovie.Genres = movie.Genres;
+            exisitngMovie.Slug = GenerateSlug(exisitngMovie.Title, exisitngMovie.YearOfRelease);
+            var updated = await _dbContext.SaveChangesAsync(token);
+            return updated > 0; 
         }
 
-        public Task<bool> DeleteByIdAsync(Guid id)
+        public async Task<bool> DeleteByIdAsync(Guid id, CancellationToken token = default)
         {
-            var removedCount = _movies.RemoveAll(x => x.Id == id);
-            var movieRemoved = removedCount > 0;
-            return Task.FromResult(movieRemoved);
+            var movie =await GetByIdAsync(id, token);
+            if (movie == null)
+            {
+                return false;
+            }
+            _dbContext.Movies.Remove(movie);
+            var deleted = await _dbContext.SaveChangesAsync(token);
+            return deleted > 0;
+        }
+        private string GenerateSlug(string title, int yearOfRelease)
+        {
+            var slugedTitle = Regex.Replace(title, "[^0-9A-Za-z _-]", string.Empty)
+                .ToLower().Replace(" ", "-");
+            return $"{slugedTitle}-{yearOfRelease}";
         }
     }
 }

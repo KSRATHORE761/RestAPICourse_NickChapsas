@@ -11,3 +11,5 @@ C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.pdb
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\ref\Movies.Application.dll
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.sourcelink.json
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\bin\Debug\net8.0\Movies.Application.runtimeconfig.json
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.genruntimeconfig.cache
