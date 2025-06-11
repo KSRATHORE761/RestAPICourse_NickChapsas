@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movie.API.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movie.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movie.API.csproj|solutionrelative:movie.api\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movies.API.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movie.api\\mapping\\contractmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movies.API.csproj|solutionrelative:movie.api\\mapping\\contractmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.contracts\\requests\\updatemovierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|solutionrelative:movies.contracts\\requests\\updatemovierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movies.API.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movie.api\\apiendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movies.API.csproj|solutionrelative:movie.api\\apiendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.contracts\\responses\\moviesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|solutionrelative:movies.contracts\\responses\\moviesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movie.API.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movie.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B01D7A27-FE84-49D5-9954-5B104593DE74}|Movie.API\\Movie.API.csproj|solutionrelative:movie.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.application\\applicationservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|solutionrelative:movies.application\\applicationservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.application\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|solutionrelative:movies.application\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.application\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|solutionrelative:movies.application\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.application\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1173E8-D6B2-4D0A-B707-DC90FB7EE55A}|Movies.Application\\Movies.Application.csproj|solutionrelative:movies.application\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.contracts\\responses\\movieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|solutionrelative:movies.contracts\\responses\\movieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|c:\\kuldeep\\asp.net\\restapicourse\\restapicourse\\movies.contracts\\requests\\createmovierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D825A6A-E7A5-444D-B453-20A4A458E6F7}|Movies.Contracts\\Movies.Contracts.csproj|solutionrelative:movies.contracts\\requests\\createmovierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContractMapping.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\Mapping\\ContractMapping.cs",
+              "RelativeDocumentMoniker": "Movie.API\\Mapping\\ContractMapping.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\Mapping\\ContractMapping.cs",
+              "RelativeToolTip": "Movie.API\\Mapping\\ContractMapping.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T17:24:59.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Movie.API\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\Controllers\\MoviesController.cs*",
+              "RelativeToolTip": "Movie.API\\Controllers\\MoviesController.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T16:55:06.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateMovieRequest.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Requests\\UpdateMovieRequest.cs",
+              "RelativeDocumentMoniker": "Movies.Contracts\\Requests\\UpdateMovieRequest.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Requests\\UpdateMovieRequest.cs",
+              "RelativeToolTip": "Movies.Contracts\\Requests\\UpdateMovieRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:55:16.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiEndpoints.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\ApiEndpoints.cs",
+              "RelativeDocumentMoniker": "Movie.API\\ApiEndpoints.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\ApiEndpoints.cs",
+              "RelativeToolTip": "Movie.API\\ApiEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T17:32:08.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoviesResponse.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Responses\\MoviesResponse.cs",
+              "RelativeDocumentMoniker": "Movies.Contracts\\Responses\\MoviesResponse.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Responses\\MoviesResponse.cs",
+              "RelativeToolTip": "Movies.Contracts\\Responses\\MoviesResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:23:11.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\Program.cs",
+              "RelativeDocumentMoniker": "Movie.API\\Program.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movie.API\\Program.cs",
+              "RelativeToolTip": "Movie.API\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:09:10.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\ApplicationServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Movies.Application\\ApplicationServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\ApplicationServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Movies.Application\\ApplicationServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:10:32.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "Movies.Application\\Repositories\\MovieRepository.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\Repositories\\MovieRepository.cs",
+              "RelativeToolTip": "Movies.Application\\Repositories\\MovieRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:02:22.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\Repositories\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "Movies.Application\\Repositories\\IMovieRepository.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\Repositories\\IMovieRepository.cs",
+              "RelativeToolTip": "Movies.Application\\Repositories\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:59:35.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Movies.Application\\Models\\Movie.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\Models\\Movie.cs",
+              "RelativeToolTip": "Movies.Application\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:56:45.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieResponse.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Responses\\MovieResponse.cs",
+              "RelativeDocumentMoniker": "Movies.Contracts\\Responses\\MovieResponse.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Responses\\MovieResponse.cs",
+              "RelativeToolTip": "Movies.Contracts\\Responses\\MovieResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:13:37.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateMovieRequest.cs",
+              "DocumentMoniker": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Requests\\CreateMovieRequest.cs",
+              "RelativeDocumentMoniker": "Movies.Contracts\\Requests\\CreateMovieRequest.cs",
+              "ToolTip": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Contracts\\Requests\\CreateMovieRequest.cs",
+              "RelativeToolTip": "Movies.Contracts\\Requests\\CreateMovieRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T17:09:13.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

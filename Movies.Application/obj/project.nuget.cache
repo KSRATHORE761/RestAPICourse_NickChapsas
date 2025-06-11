@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AHGmYUrIrps=",
+  "success": true,
+  "projectFilePath": "C:\\Kuldeep\\Asp.net\\RestAPICourse\\RestAPICourse\\Movies.Application\\Movies.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shobhna Rathore\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

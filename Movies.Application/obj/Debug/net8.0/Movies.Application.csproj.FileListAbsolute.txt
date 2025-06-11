@@ -1,0 +1,12 @@
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\bin\Debug\net8.0\Movies.Application.deps.json
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\bin\Debug\net8.0\Movies.Application.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\bin\Debug\net8.0\Movies.Application.pdb
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.csproj.AssemblyReference.cache
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.AssemblyInfoInputs.cache
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.AssemblyInfo.cs
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.csproj.CoreCompileInputs.cache
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\refint\Movies.Application.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\Movies.Application.pdb
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Application\obj\Debug\net8.0\ref\Movies.Application.dll

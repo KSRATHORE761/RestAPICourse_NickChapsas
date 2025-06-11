@@ -1,0 +1,11 @@
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.deps.json
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.pdb
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.AssemblyInfoInputs.cache
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.AssemblyInfo.cs
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.csproj.CoreCompileInputs.cache
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\refint\Movies.Contracts.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.pdb
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\ref\Movies.Contracts.dll
