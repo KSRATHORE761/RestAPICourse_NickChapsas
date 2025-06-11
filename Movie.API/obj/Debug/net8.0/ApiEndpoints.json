@@ -14,5 +14,52 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.API.Controllers.MoviesController",
+    "Method": "GetAll",
+    "RelativePath": "api/movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.API.Controllers.MoviesController",
+    "Method": "Update",
+    "RelativePath": "api/movies/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Movies.Contracts.Requests.UpdateMovieRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.API.Controllers.MoviesController",
+    "Method": "Get",
+    "RelativePath": "api/movies/{idOrSlug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idOrSlug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -24,6 +24,7 @@ namespace Movies.API.Mapping
             {
                 Id = movie.Id,
                 Title = movie.Title,
+                Slug = movie.Slug,
                 YearOfRelease = movie.YearOfRelease,
                 Genres = movie.Genres
             };
@@ -33,7 +34,7 @@ namespace Movies.API.Mapping
         {
             return new MoviesResponse
             {
-                Items = (IEnumerable<MoviesResponse>)movies.Select(MapToResponse)
+                Items = movies.Select(MapToResponse)
             };
         }
         public static Movies.Application.Models.Movie MapToMovie(this UpdateMovieRequest request, Guid id)
