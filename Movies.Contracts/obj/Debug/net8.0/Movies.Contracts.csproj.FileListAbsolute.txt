@@ -10,3 +10,6 @@ C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.pdb
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\ref\Movies.Contracts.dll
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.sourcelink.json
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.csproj.AssemblyReference.cache
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\bin\Debug\net8.0\Movies.Contracts.runtimeconfig.json
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.genruntimeconfig.cache
