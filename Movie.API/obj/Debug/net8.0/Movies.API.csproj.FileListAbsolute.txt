@@ -39,3 +39,4 @@ C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\obj\Debug\net8.0\refint
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\obj\Debug\net8.0\Movies.API.pdb
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\obj\Debug\net8.0\Movies.API.genruntimeconfig.cache
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\obj\Debug\net8.0\ref\Movies.API.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\obj\Debug\net8.0\Movies.API.sourcelink.json

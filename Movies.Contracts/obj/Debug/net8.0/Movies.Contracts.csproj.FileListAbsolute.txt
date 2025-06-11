@@ -9,3 +9,4 @@ C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\refint\Movies.Contracts.dll
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.pdb
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\ref\Movies.Contracts.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movies.Contracts\obj\Debug\net8.0\Movies.Contracts.sourcelink.json
