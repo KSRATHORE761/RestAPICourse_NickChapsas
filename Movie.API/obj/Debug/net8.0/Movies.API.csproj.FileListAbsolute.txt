@@ -158,3 +158,4 @@ C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\bin\Debug\net8.0\zh-Han
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Kuldeep\Asp.net\RestAPICourse\RestAPICourse\Movie.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
