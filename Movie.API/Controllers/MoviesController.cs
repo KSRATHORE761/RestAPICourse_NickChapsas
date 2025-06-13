@@ -6,9 +6,11 @@ using Movies.Application.Models;
 using Movies.API.Mapping;
 using Movies.API;
 using Movies.Application.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Movie.API.Controllers
 {
+
     [ApiController]
     public class MoviesController : ControllerBase
     {
@@ -18,15 +20,16 @@ namespace Movie.API.Controllers
             _movieService = movieRepository;
         }
 
+        [Authorize(AuthConstants.AdminUserPolicyName)]
         [HttpPost(ApiEndpoints.Movies.Create)]
         public async Task<IActionResult> Create([FromBody] CreateMovieRequest request, CancellationToken token)
         {
 
             var movie = request.MapToMovie();
-
             await _movieService.CreateAsync(movie, token);
             return CreatedAtAction(nameof(Get), new { idOrSlug = movie.Id }, movie);
         }
+        [Authorize]
         [HttpGet(ApiEndpoints.Movies.Get)]
         public async Task<IActionResult> Get([FromRoute] string idOrSlug, CancellationToken token)
         {
@@ -41,6 +44,8 @@ namespace Movie.API.Controllers
             var response = movie.MapToResponse();
             return Ok(response);
         }
+
+        [Authorize]
         [HttpGet(ApiEndpoints.Movies.GetAll)]
         public async Task<IActionResult> GetAll(CancellationToken token)
         {
@@ -48,6 +53,8 @@ namespace Movie.API.Controllers
             var response = movies.MapToResponse();
             return Ok(response);
         }
+
+        [Authorize(AuthConstants.AdminUserPolicyName)]
         [HttpPut(ApiEndpoints.Movies.Update)]
         public async Task<IActionResult> Update([FromBody]UpdateMovieRequest request, [FromRoute]Guid id, CancellationToken token)
         {
@@ -60,6 +67,8 @@ namespace Movie.API.Controllers
             var response = movie.MapToResponse();
             return Ok(response);
         }
+
+        [Authorize(AuthConstants.AdminUserPolicyName)]
         [HttpDelete(ApiEndpoints.Movies.Delete)]
         public async Task<IActionResult> Delete([FromRoute] Guid id, CancellationToken token)
         {
